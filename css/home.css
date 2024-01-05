@@ -1,0 +1,49 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: darkgoldenrod;
+}
+table {
+    height: 100%;
+    color: aqua;
+}
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+ 
+.table1, th, td {
+    border: 1px solid #999;
+    padding: 8px 20px;
+}
+
+p {
+    color: aqua;
+}
+textarea {
+    color: darkblue;
+    height: 250px;
+    width: 300px;
+}
+form {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255)
+    font-family="Arial";
+}
+#email {
+    color: white;
+}
+h2, h4, h5 {
+    color: blue;
+}
+h1 {
+    color: midnightblue;
+}
+input.name {
+    height: 20px;
+    width:250px;
+}
