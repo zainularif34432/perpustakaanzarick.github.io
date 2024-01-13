@@ -14,12 +14,17 @@ onload = function() {
         loading.textContent = loading.textContent + "."
     },1000)// 10000ms = 10detik
 
-    this.setTimeout(() => {
+    let loaded1 = this.setInterval(() => {
         this.clearInterval(loaded)
-        loading.textContent = "Selamat Datang"
+        loading.textContent = "Hampir Selesai"
+    },15000)
+
+    this.setTimeout(() => {
+        this.clearInterval(loaded1)
+        loading.textContent = "Selamat Datang :)"
     }, 20000)
 }
 function Redirect() {
     window.location = "home.html"
 }
-setTimeout('Redirect()', 25000)
+setTimeout('Redirect()', 23000)

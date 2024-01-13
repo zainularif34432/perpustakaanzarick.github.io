@@ -1,10 +1,12 @@
 body {
-    background: black;
+    background: blueviolet;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
 }
 a {
-    color: darkgoldenrod;
+    color: darkorange;
 }
 table {
     height: 100%;
@@ -30,15 +32,15 @@ textarea {
     width: 300px;
 }
 form {
-    color: rgb(255, 255, 255);
+    color: rgb(85, 9, 72);
     border: 1px solid rgb(255, 255, 255)
     font-family="Arial";
 }
 #email {
-    color: white;
+    color: blue;
 }
 h2, h4, h5 {
-    color: blue;
+    color: snow;
 }
 h1 {
     color: midnightblue;
