@@ -49,3 +49,8 @@ input.name {
     height: 20px;
     width:250px;
 }
+.judul{
+    padding: 12px;
+    border: 12px solid yellow;
+    position: relative;
+}

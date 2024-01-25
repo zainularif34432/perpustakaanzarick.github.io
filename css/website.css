@@ -4,4 +4,9 @@ body {
 }
 .web {
     text-align: justify;
+    size: 100%;
+}
+.container {
+    position: fixed;
+    align-items: center;
 }
